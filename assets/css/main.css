@@ -1718,7 +1718,7 @@
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/bg01.png"), url("../../images/bridge1.jpg");
+		background: url("images/bg01.png"), url("../../images/bridge2.jpg");
 		background-position: top left, center center;
 		background-size: auto, cover;
 	}
