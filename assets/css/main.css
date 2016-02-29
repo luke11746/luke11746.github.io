@@ -1125,8 +1125,7 @@
 		line-height: 1em;
 	}
 
-		h2.icon {
-			line-height: 48px;
+	
 		}
 
 		
@@ -1682,7 +1681,7 @@
 	}
 
 	#main-wrapper {
-		background: #fff;
+		background: ##f2f2f2;
 	}
 
 	#footer-wrapper {
@@ -1702,7 +1701,7 @@
 	}
 
 	.wrapper.style1 {
-		position: center;
+		position: relative;
 		text-shadow: 1px 1px 0 #fff;
 		background-color: #fff;
 		background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");
@@ -1715,7 +1714,6 @@
 		position: relative;
 		text-shadow: 1px 1px 0 #fff;
 		background-color: #fff;
-		background-image: url("images/bg03.png"), url("images/bg02.png");
 		background-repeat: no-repeat, repeat;
 		background-size: 100% 15em, auto auto;
 		background-position: top center, top left;
