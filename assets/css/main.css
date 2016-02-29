@@ -1129,11 +1129,7 @@
 			line-height: 48px;
 		}
 
-			h2.icon:before {
-				position: relative;
-				top: 0.05em;
-				margin-right: 0.5em;
-				opacity: 0.25;
+		
 			}
 
 	h3 {
@@ -1231,28 +1227,7 @@
 		margin: 2.5em 0 0 0;
 	}
 
-	header.major {
-		border-bottom: solid 1px #dbdbdb;
-		margin: 0 0 3em 0;
-	}
-
-		header.major:after {
-			content: '';
-			display: block;
-			border-top: solid 1px #dbdbdb;
-			height: 8px;
-		}
-
-		header.major h2, header.major h3 {
-			margin: 0 0 1.2em 0;
-		}
-
-		header.major p {
-			margin: 0 0 1.5em 0;
-			position: relative;
-			top: -1em;
-		}
-
+	
 /* Forms */
 
 	form label {
@@ -1437,15 +1412,7 @@
 		cursor: pointer;
 	}
 
-		input[type="button"].icon:before,
-		input[type="submit"].icon:before,
-		input[type="reset"].icon:before,
-		button.icon:before,
-		.button.icon:before {
-			opacity: 0.5;
-			margin-right: 0.5em;
-			position: relative;
-			top: 0.05em;
+		
 		}
 
 		input[type="button"]:hover,
@@ -1648,16 +1615,7 @@
 		text-decoration: none;
 	}
 
-		.icon:before {
-			display: inline-block;
-			font-family: FontAwesome;
-			font-size: 1.25em;
-			text-decoration: none;
-			font-style: normal;
-			font-weight: normal;
-			line-height: 1;
-			-webkit-font-smoothing: antialiased;
-			-moz-osx-font-smoothing: grayscale;
+
 		}
 
 		.icon > .label {
@@ -1744,7 +1702,7 @@
 	}
 
 	.wrapper.style1 {
-		position: relative;
+		position: center;
 		text-shadow: 1px 1px 0 #fff;
 		background-color: #fff;
 		background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");
