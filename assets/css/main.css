@@ -1125,7 +1125,8 @@
 		line-height: 1em;
 	}
 
-	
+		h2.icon {
+			line-height: 48px;
 		}
 
 		
