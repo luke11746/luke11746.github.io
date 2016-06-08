@@ -1125,12 +1125,12 @@
 		line-height: 1em;
 	}
 
-		h2.icon {
+	
+			}	h2.icon {
 			line-height: 48px;
 		}
 
 		
-			}
 
 	h3 {
 		font-size: 1.35em;
@@ -2321,4 +2321,12 @@
 			}
 
 	}
+	
+	.fa-file-text-o:before {
+		display: none;
+	}
+	.major h3 {
+		color: #ffffff!important;
+	}
+
 	
